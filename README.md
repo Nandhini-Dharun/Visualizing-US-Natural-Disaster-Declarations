@@ -20,10 +20,6 @@ Key Columns Used
 
 - state – Affected state
 
-- incidentBeginDate – Date disaster started
-
-- incidentEndDate – Date disaster ended
-
 - declarationDate – Date federal declaration was issued
 
 - fyDeclared – Fiscal year of declaration
@@ -32,18 +28,7 @@ Key Columns Used
 
 - disasterNumber – Unique disaster identifier
 
-Derived Columns & Measures
-
-- Response Lag (Days): 
-Calculated using DATEDIFF between incident begin date and declaration date.
-
-- DR % (Major Disaster %): 
-Proportion of DR declarations relative to total declarations.
-
-- High Risk States Count (Top 25%): 
-States in the top quartile of disaster frequency.
-
-The dataset enables both descriptive and strategic disaster analysis.
+The dataset enables descriptive and strategic disaster analysis.
 
 # **Key Performance Indicators (KPIs)**
 
@@ -70,38 +55,6 @@ Page 1 – Impact & Trend KPIs
 - 5.Latest Year Total Declarations
 
   - Monitors recent disaster activity.
-
-Page 2 – Strategic Risk & Preparedness KPIs
-
-- 1.Most Vulnerable State
-
-  - State with highest disaster frequency.
-
-  - Supports regional prioritization.
-
-- 2.High Risk States Count (Top 25%)
-
-  - Measures national exposure concentration.
-
-- 3.DR % (Major Disaster %)
-
-  - Severity indicator.
-
-  - Target benchmark: 60%.
-
-  - Trend tracked by fiscal year.
-
-- 4.Avg Response Days
-
-  - Operational efficiency metric.
-    
-  - Target benchmark: 3 days.
-    
-  - Tracks responsiveness of federal declaration.
-
-- 5.Most Frequent Incident Type
-
-  - Highlights dominant disaster category for mitigation focus.
 
 # **Dashboard Pages**
 
@@ -134,36 +87,6 @@ This page answers:
 
 - How have trends changed over time?
 
-## Page 2: Strategic Risk & Preparedness Insights
-
-Purpose:
-To transform descriptive data into actionable risk and operational insights.
-
-Visuals Used:
-
-- KPI Cards (Vulnerability & Risk Spread)
-
-- KPI Visuals (DR %, Avg Response Days with targets & trend axis)
-
-- Bar chart (Total Disasters by State)
-
-- Donut chart (Disaster Share by Type)
-
-- Clustered bar (Incident Type by Declaration Type)
-
-- Response time analysis by incident type
-
-- Slicers (Fiscal Year, Declaration Type)
-
-This page answers:
-
-- Where should resources be prioritized?
-
-- Are disasters becoming more severe?
-
-- Is response time improving?
-
-- Which hazard requires preparedness focus?
 
 # **Key Insights**
 
@@ -171,13 +94,7 @@ This page answers:
 
 2. Certain states (e.g., Texas) show consistently high vulnerability.
 
-3. DR % exceeds the 60% benchmark, indicating rising disaster severity.
-
-4. Disaster trends peaked around 2020 and show long-term fluctuation.
-
-5. Average response time significantly exceeds the 3-day target, highlighting operational inefficiency.
-
-6. Risk exposure is concentrated among a subset of high-risk states.
+3. Disaster trends peaked around 2020 and show long-term fluctuation.
 
 # **Recommendations**
 
