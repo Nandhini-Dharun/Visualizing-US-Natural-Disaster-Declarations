@@ -100,7 +100,7 @@ This page answers:
 
 # **Tools Used**
 
-**Power BI:** Used for data cleaning, modeling, and dashboard development. Power Query helped transform and prepare the dataset for analysis. DAX was used to create key measures such as DR %, Avg Response Days, and risk-based KPIs. It enabled the creation of interactive visuals, maps, and slicers to analyze disaster trends and preparedness insights.
+**Power BI:** Used for data cleaning, modeling, and dashboard development. Power Query helped transform and prepare the dataset for analysis. DAX was used to create key measures. It enabled the creation of interactive visuals, maps, and slicers to analyze disaster trends and preparedness insights.
 
 **Google Colab:** Used as the primary environment for data cleaning. Python (Pandas) scripts were executed in Colab to handle missing values, clean strings, and format the dates before exporting the final CSV for visualization.
 
