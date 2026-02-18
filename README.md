@@ -76,7 +76,7 @@ To provide descriptive insights into disaster frequency, geographic distribution
 
 - 🗺️ Map (State-level distribution)
 
-- 🎛️ Slicers (Incident Type, Designated Area)
+- 🎛️ Slicers (Incident Type, Year Declared)
 
 ❓ This page answers:
 
